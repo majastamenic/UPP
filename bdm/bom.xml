@@ -33,6 +33,7 @@
                 <field type="LOCALDATETIME" length="255" name="interviewDate" nullable="true" collection="false"/>
                 <relationField type="AGGREGATION" reference="com.ftn.upp.model.Impression" fetchType="LAZY" name="impression" nullable="true" collection="true"/>
                 <field type="BOOLEAN" length="255" name="passed" nullable="true" collection="false"/>
+                <relationField type="COMPOSITION" reference="com.ftn.upp.model.JobApplication" fetchType="LAZY" name="jobApplication" nullable="true" collection="false"/>
             </fields>
             <uniqueConstraints/>
             <queries/>
@@ -44,11 +45,7 @@
                 <field type="STRING" length="255" name="surname" nullable="true" collection="false"/>
                 <field type="STRING" length="255" name="address" nullable="true" collection="false"/>
                 <field type="STRING" length="255" name="email" nullable="true" collection="false"/>
-                <field type="STRING" length="255" name="cv" nullable="true" collection="false"/>
-                <field type="STRING" length="255" name="coverLetter" nullable="true" collection="false"/>
                 <field type="LOCALDATE" length="255" name="applicationDate" nullable="true" collection="false"/>
-                <field type="BOOLEAN" length="255" name="approvedByHR" nullable="true" collection="false"/>
-                <field type="BOOLEAN" length="255" name="approvedByManager" nullable="true" collection="false"/>
             </fields>
             <uniqueConstraints/>
             <queries/>
