@@ -2,7 +2,7 @@
   "modelVersion" : "2.2",
   "id" : "reviewRequest",
   "name" : "reviewRequest",
-  "lastUpdate" : 1642461579927,
+  "lastUpdate" : 1642624238840,
   "rows" : [
     [
       {
@@ -11,7 +11,7 @@
           "xs" : 12
         },
         "propertyValues" : { },
-        "reference" : "84f7fa55-4cc0-4f17-a3a3-9d673e6769ad",
+        "reference" : "abdcb491-bb79-4804-aa1d-0bcf2afd361e",
         "hasValidationError" : false,
         "id" : "pbContainer",
         "rows" : [
@@ -50,7 +50,7 @@
                   "value" : 12
                 }
               },
-              "reference" : "57196365-57ce-4d0b-97a3-23270885314b",
+              "reference" : "acba450e-63fd-4de2-9234-aeb35acd3e3f",
               "hasValidationError" : false,
               "id" : "pbTitle",
               "description" : ""
@@ -98,7 +98,7 @@
                   "value" : 12
                 }
               },
-              "reference" : "b80ec3c0-2316-40ae-a0d1-94d06d9a61ff",
+              "reference" : "8540fdfa-9f67-448c-b5e8-e8efbc61f164",
               "hasValidationError" : false,
               "id" : "pbText",
               "description" : ""
@@ -114,7 +114,7 @@
           "xs" : 12
         },
         "propertyValues" : { },
-        "reference" : "81511fe8-e396-45b8-93e0-9c27666e2d9d",
+        "reference" : "3e627230-fa1b-4559-a8e4-1a09f2ce8ee6",
         "hasValidationError" : false,
         "id" : "pbFormContainer",
         "container" : {
@@ -123,7 +123,7 @@
             "xs" : 12
           },
           "propertyValues" : { },
-          "reference" : "4248c87a-e752-45e1-8f43-d842d00277b7",
+          "reference" : "39aa4454-14ce-492f-811b-0e985ca383fb",
           "hasValidationError" : false,
           "id" : "pbContainer",
           "rows" : [
@@ -162,7 +162,7 @@
                     "value" : 12
                   }
                 },
-                "reference" : "89dcf06a-b650-4124-8945-d671d26eefc0",
+                "reference" : "121f5b01-6dae-4260-a4ce-5bb49626ee9b",
                 "hasValidationError" : false,
                 "id" : "pbTitle",
                 "description" : ""
@@ -179,8 +179,7 @@
                 },
                 "propertyValues" : {
                   "repeatedCollection" : {
-                    "type" : "variable",
-                    "value" : ""
+                    "type" : "variable"
                   },
                   "hidden" : {
                     "type" : "constant",
@@ -195,7 +194,7 @@
                     "value" : 12
                   }
                 },
-                "reference" : "8e28a93d-88ee-42c1-9be3-0e8bf969d013",
+                "reference" : "5c4f132c-3d93-47ea-8a86-a07125aec24b",
                 "hasValidationError" : false,
                 "id" : "pbContainer",
                 "rows" : [
@@ -275,7 +274,7 @@
                           "value" : 1
                         }
                       },
-                      "reference" : "a48a3259-c14f-4814-9dfb-b1637157e7d3",
+                      "reference" : "6c88be68-8690-476c-9669-6091617d9130",
                       "hasValidationError" : false,
                       "id" : "pbInput",
                       "description" : ""
@@ -357,7 +356,7 @@
                           "value" : 1
                         }
                       },
-                      "reference" : "bc4551a9-c141-4b3a-b81a-eb9c57c9d2fd",
+                      "reference" : "c569a564-0d0b-4858-9c1f-ce351ed8a3e0",
                       "hasValidationError" : false,
                       "id" : "pbInput",
                       "description" : ""
@@ -439,7 +438,7 @@
                           "value" : 1
                         }
                       },
-                      "reference" : "e6d73eb3-9bf7-497c-8da3-3661632f18c2",
+                      "reference" : "b39cd22a-879d-4934-9d66-31d502826100",
                       "hasValidationError" : false,
                       "id" : "pbInput",
                       "description" : ""
@@ -455,72 +454,94 @@
                         "lg" : 12
                       },
                       "propertyValues" : {
-                        "cssClasses" : {
+                        "showNow" : {
                           "type" : "constant",
-                          "value" : ""
+                          "value" : true
                         },
                         "hidden" : {
                           "type" : "constant",
                           "value" : false
                         },
-                        "required" : {
-                          "type" : "constant",
-                          "value" : false
-                        },
-                        "minLength" : {
-                          "type" : "constant",
-                          "value" : ""
-                        },
-                        "maxLength" : {
-                          "type" : "constant",
-                          "value" : ""
-                        },
-                        "readOnly" : {
+                        "inlineInput" : {
                           "type" : "constant",
                           "value" : true
                         },
-                        "labelHidden" : {
+                        "dateFormat" : {
                           "type" : "constant",
-                          "value" : false
+                          "value" : "MM/dd/yyyy"
                         },
-                        "label" : {
-                          "type" : "interpolation",
-                          "value" : "Conference Date"
-                        },
-                        "labelPosition" : {
+                        "cssClasses" : {
                           "type" : "constant",
-                          "value" : "top"
+                          "value" : ""
                         },
                         "labelWidth" : {
                           "type" : "constant",
                           "value" : 1
                         },
-                        "placeholder" : {
+                        "readOnly" : {
+                          "type" : "constant",
+                          "value" : true
+                        },
+                        "label" : {
                           "type" : "interpolation",
+                          "value" : "Conference Date"
+                        },
+                        "type" : {
+                          "type" : "constant"
+                        },
+                        "required" : {
+                          "type" : "constant",
+                          "value" : false
+                        },
+                        "todayLabel" : {
+                          "type" : "constant",
+                          "value" : "Today"
+                        },
+                        "timePlaceholder" : {
+                          "type" : "constant",
+                          "value" : "Enter a time (h:mm:ss a)"
+                        },
+                        "labelHidden" : {
+                          "type" : "constant",
+                          "value" : false
+                        },
+                        "showToday" : {
+                          "type" : "constant",
+                          "value" : true
+                        },
+                        "labelPosition" : {
+                          "type" : "constant",
+                          "value" : "top"
+                        },
+                        "timeFormat" : {
+                          "type" : "constant",
+                          "value" : "h:mm:ss a"
+                        },
+                        "placeholder" : {
+                          "type" : "constant",
                           "value" : "Enter a date (mm/dd/yyyy)"
+                        },
+                        "nowLabel" : {
+                          "type" : "constant",
+                          "value" : "Now"
+                        },
+                        "dimension" : {
+                          "type" : "constant",
+                          "value" : 12
                         },
                         "value" : {
                           "type" : "variable",
                           "value" : "conferenceRequest.conferenceDate"
                         },
-                        "type" : {
+                        "withTimeZone" : {
                           "type" : "constant",
-                          "value" : "text"
-                        },
-                        "min" : {
-                          "type" : "constant"
-                        },
-                        "max" : {
-                          "type" : "constant"
-                        },
-                        "step" : {
-                          "type" : "constant",
-                          "value" : 1
+                          "value" : false
                         }
                       },
-                      "reference" : "bc0f7aec-341e-444c-ad86-75c2a0437f2c",
+                      "reference" : "6976dd20-c1fd-4517-bd6d-b32dffb79c3d",
                       "hasValidationError" : false,
-                      "id" : "pbInput"
+                      "id" : "pbDateTimePicker",
+                      "description" : ""
                     }
                   ],
                   [
@@ -599,7 +620,7 @@
                           "value" : 1
                         }
                       },
-                      "reference" : "4db69302-c1b8-4a08-b2ce-300af1c3bacf",
+                      "reference" : "45af4247-ded1-4610-a360-565d9c04f91b",
                       "hasValidationError" : false,
                       "id" : "pbInput",
                       "description" : ""
@@ -648,56 +669,7 @@
                           "value" : false
                         }
                       },
-                      "reference" : "e96fe095-18bf-46ec-90d5-333eea12da49",
-                      "hasValidationError" : false,
-                      "id" : "pbCheckbox",
-                      "description" : ""
-                    }
-                  ],
-                  [
-                    {
-                      "type" : "component",
-                      "dimension" : {
-                        "md" : 12,
-                        "sm" : 12,
-                        "xs" : 12,
-                        "lg" : 12
-                      },
-                      "propertyValues" : {
-                        "labelHidden" : {
-                          "type" : "constant",
-                          "value" : false
-                        },
-                        "hidden" : {
-                          "type" : "constant",
-                          "value" : false
-                        },
-                        "cssClasses" : {
-                          "type" : "constant",
-                          "value" : ""
-                        },
-                        "disabled" : {
-                          "type" : "constant",
-                          "value" : true
-                        },
-                        "label" : {
-                          "type" : "interpolation",
-                          "value" : "Approved"
-                        },
-                        "dimension" : {
-                          "type" : "constant",
-                          "value" : 12
-                        },
-                        "value" : {
-                          "type" : "variable",
-                          "value" : "conferenceRequest.approved"
-                        },
-                        "required" : {
-                          "type" : "constant",
-                          "value" : false
-                        }
-                      },
-                      "reference" : "864ed9e0-80c3-4ed3-97a8-f81eeea5dba4",
+                      "reference" : "a6da5662-5d2b-49c4-a9e9-74405d6972b5",
                       "hasValidationError" : false,
                       "id" : "pbCheckbox",
                       "description" : ""
@@ -779,7 +751,7 @@
                           "value" : 1
                         }
                       },
-                      "reference" : "fabb4075-6fea-4ad3-8512-949bb5c37ceb",
+                      "reference" : "2975b75e-5f13-4b14-b432-891c45656492",
                       "hasValidationError" : false,
                       "id" : "pbInput",
                       "description" : ""
@@ -859,7 +831,7 @@
                     "value" : 12
                   }
                 },
-                "reference" : "94b5b48d-6696-4713-88ca-bed8f6065c5e",
+                "reference" : "805eab97-d562-4bc5-b4e1-110941239a6a",
                 "hasValidationError" : false,
                 "id" : "pbButton",
                 "description" : ""
@@ -911,7 +883,7 @@
                     "value" : 12
                   }
                 },
-                "reference" : "39df195c-9253-46a6-b9c6-a9b26190e3cc",
+                "reference" : "2dc4b264-47de-4584-a51b-ef420b8a7ef4",
                 "hasValidationError" : false,
                 "id" : "pbText",
                 "description" : ""
@@ -924,14 +896,14 @@
   ],
   "assets" : [
     {
-      "id" : "1929cb72-9d93-4268-b572-ecd27eed1918",
+      "id" : "9767e04f-be4a-48d7-91f5-eb7ec6df523d",
       "name" : "style.css",
       "type" : "css",
       "order" : 0,
       "external" : false
     },
     {
-      "id" : "285d3328-e6f6-4db5-b936-51e567b5cfd7",
+      "id" : "c5a53257-3994-434b-bdca-72af79b7b8f4",
       "name" : "localization.json",
       "type" : "json",
       "order" : 0,
@@ -984,7 +956,6 @@
         "\t\t\tprice: $data.conferenceRequest.price !== undefined ? $data.conferenceRequest.price : null,",
         "\t\t\tisOnline: $data.conferenceRequest.isOnline !== undefined ? $data.conferenceRequest.isOnline : null,",
         "\t\t\tapproved: $data.conferenceRequest.approved !== undefined ? $data.conferenceRequest.approved : null,",
-        "\t\t\tdescription: $data.conferenceRequest.description !== undefined ? $data.conferenceRequest.description : null,",
         "\t\t\tallowedBudget: $data.conferenceRequest.allowedBudget !== undefined ? $data.conferenceRequest.allowedBudget : null",
         "\t\t}",
         "\t}",
@@ -1008,7 +979,7 @@
     }
   },
   "hasValidationError" : false,
-  "uuid" : "18b00216-e844-428c-b3c7-eab6a47ce019",
+  "uuid" : "2497279f-d20e-4174-89d9-11907a286270",
   "type" : "form",
   "description" : "Page generated with Bonita UI designer"
 }

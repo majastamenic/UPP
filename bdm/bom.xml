@@ -1,6 +1,35 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <businessObjectModel xmlns="http://documentation.bonitasoft.com/bdm-xml-schema/1.0" modelVersion="1.0" productVersion="7.13.0">
     <businessObjects>
+        <businessObject qualifiedName="com.ftn.upp.model.Accommodation">
+            <fields>
+                <field type="STRING" length="255" name="name" nullable="true" collection="false"/>
+                <field type="STRING" length="255" name="address" nullable="true" collection="false"/>
+                <field type="INTEGER" length="255" name="price" nullable="true" collection="false"/>
+                <relationField type="AGGREGATION" reference="com.ftn.upp.model.AccommodationType" fetchType="EAGER" name="type" nullable="true" collection="false"/>
+            </fields>
+            <uniqueConstraints/>
+            <queries/>
+            <indexes/>
+        </businessObject>
+        <businessObject qualifiedName="com.ftn.upp.model.AccommodationType">
+            <fields>
+                <field type="STRING" length="255" name="name" nullable="true" collection="false"/>
+            </fields>
+            <uniqueConstraints/>
+            <queries/>
+            <indexes/>
+        </businessObject>
+        <businessObject qualifiedName="com.ftn.upp.model.ConferenceOffer">
+            <fields>
+                <relationField type="AGGREGATION" reference="com.ftn.upp.model.Accommodation" fetchType="EAGER" name="accommodation" nullable="true" collection="true"/>
+                <relationField type="AGGREGATION" reference="com.ftn.upp.model.Transport" fetchType="EAGER" name="transport" nullable="true" collection="true"/>
+                <field type="BOOLEAN" length="255" name="confirmed" nullable="true" collection="false"/>
+            </fields>
+            <uniqueConstraints/>
+            <queries/>
+            <indexes/>
+        </businessObject>
         <businessObject qualifiedName="com.ftn.upp.model.ConferenceRequest">
             <fields>
                 <field type="STRING" length="255" name="name" nullable="true" collection="false"/>
@@ -11,8 +40,11 @@
                 <field type="INTEGER" length="255" name="price" nullable="true" collection="false"/>
                 <field type="BOOLEAN" length="255" name="isOnline" nullable="true" collection="false"/>
                 <field type="BOOLEAN" length="255" name="approved" nullable="true" collection="false"/>
-                <field type="STRING" length="255" name="description" nullable="true" collection="false"/>
+                <field type="STRING" length="255" name="rejectDescription" nullable="true" collection="false"/>
                 <field type="INTEGER" length="255" name="allowedBudget" nullable="true" collection="false"/>
+                <relationField type="AGGREGATION" reference="com.ftn.upp.model.ConferenceOffer" fetchType="LAZY" name="conferenceOffer" nullable="true" collection="false"/>
+                <field type="INTEGER" length="255" name="totalPrice" nullable="true" collection="false"/>
+                <field type="BOOLEAN" length="255" name="acceptByEmployee" nullable="true" collection="false"/>
             </fields>
             <uniqueConstraints/>
             <queries/>
@@ -31,9 +63,11 @@
             <fields>
                 <field type="LOCALDATETIME" length="255" name="dates" nullable="true" collection="true"/>
                 <field type="LOCALDATETIME" length="255" name="interviewDate" nullable="true" collection="false"/>
+                <field type="STRING" length="255" name="hr" nullable="true" collection="false"/>
+                <field type="STRING" length="255" name="seniorDeveloper" nullable="true" collection="false"/>
+                <field type="STRING" length="255" name="employee" nullable="true" collection="false"/>
                 <relationField type="AGGREGATION" reference="com.ftn.upp.model.Impression" fetchType="LAZY" name="impression" nullable="true" collection="true"/>
                 <field type="BOOLEAN" length="255" name="passed" nullable="true" collection="false"/>
-                <relationField type="COMPOSITION" reference="com.ftn.upp.model.JobApplication" fetchType="LAZY" name="jobApplication" nullable="true" collection="false"/>
             </fields>
             <uniqueConstraints/>
             <queries/>
@@ -46,6 +80,25 @@
                 <field type="STRING" length="255" name="address" nullable="true" collection="false"/>
                 <field type="STRING" length="255" name="email" nullable="true" collection="false"/>
                 <field type="LOCALDATE" length="255" name="applicationDate" nullable="true" collection="false"/>
+                <relationField type="AGGREGATION" reference="com.ftn.upp.model.Interview" fetchType="LAZY" name="interview" nullable="true" collection="false"/>
+            </fields>
+            <uniqueConstraints/>
+            <queries/>
+            <indexes/>
+        </businessObject>
+        <businessObject qualifiedName="com.ftn.upp.model.Transport">
+            <fields>
+                <field type="STRING" length="255" name="name" nullable="true" collection="false"/>
+                <relationField type="AGGREGATION" reference="com.ftn.upp.model.TransportType" fetchType="LAZY" name="type" nullable="true" collection="false"/>
+                <field type="INTEGER" length="255" name="price" nullable="true" collection="false"/>
+            </fields>
+            <uniqueConstraints/>
+            <queries/>
+            <indexes/>
+        </businessObject>
+        <businessObject qualifiedName="com.ftn.upp.model.TransportType">
+            <fields>
+                <field type="STRING" length="255" name="name" nullable="true" collection="false"/>
             </fields>
             <uniqueConstraints/>
             <queries/>
