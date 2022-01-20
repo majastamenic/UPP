@@ -2,7 +2,7 @@
   "modelVersion" : "2.2",
   "id" : "payment",
   "name" : "payment",
-  "lastUpdate" : 1642550398210,
+  "lastUpdate" : 1642720910796,
   "rows" : [
     [
       {
@@ -398,88 +398,6 @@
                         },
                         "label" : {
                           "type" : "interpolation",
-                          "value" : "Email"
-                        },
-                        "placeholder" : {
-                          "type" : "constant"
-                        },
-                        "type" : {
-                          "type" : "constant",
-                          "value" : "text"
-                        },
-                        "dimension" : {
-                          "type" : "constant",
-                          "value" : 12
-                        },
-                        "value" : {
-                          "type" : "variable",
-                          "value" : "conferenceRequest.email"
-                        },
-                        "required" : {
-                          "type" : "constant",
-                          "value" : false
-                        },
-                        "minLength" : {
-                          "type" : "constant",
-                          "value" : ""
-                        },
-                        "maxLength" : {
-                          "type" : "constant",
-                          "value" : ""
-                        },
-                        "min" : {
-                          "type" : "constant"
-                        },
-                        "max" : {
-                          "type" : "constant"
-                        },
-                        "step" : {
-                          "type" : "constant",
-                          "value" : 1
-                        }
-                      },
-                      "reference" : "6adc1e85-b6e4-4efd-a72f-ce802fd9e8c2",
-                      "hasValidationError" : false,
-                      "id" : "pbInput",
-                      "description" : ""
-                    }
-                  ],
-                  [
-                    {
-                      "type" : "component",
-                      "dimension" : {
-                        "md" : 12,
-                        "sm" : 12,
-                        "xs" : 12,
-                        "lg" : 12
-                      },
-                      "propertyValues" : {
-                        "labelHidden" : {
-                          "type" : "constant",
-                          "value" : false
-                        },
-                        "hidden" : {
-                          "type" : "constant",
-                          "value" : false
-                        },
-                        "labelPosition" : {
-                          "type" : "constant",
-                          "value" : "top"
-                        },
-                        "cssClasses" : {
-                          "type" : "constant",
-                          "value" : ""
-                        },
-                        "labelWidth" : {
-                          "type" : "constant",
-                          "value" : 1
-                        },
-                        "readOnly" : {
-                          "type" : "constant",
-                          "value" : true
-                        },
-                        "label" : {
-                          "type" : "interpolation",
                           "value" : "Conference Name"
                         },
                         "placeholder" : {
@@ -752,55 +670,6 @@
                         }
                       },
                       "reference" : "bfca94b5-e939-42ea-b1ee-6d23a0c11c24",
-                      "hasValidationError" : false,
-                      "id" : "pbCheckbox",
-                      "description" : ""
-                    }
-                  ],
-                  [
-                    {
-                      "type" : "component",
-                      "dimension" : {
-                        "md" : 12,
-                        "sm" : 12,
-                        "xs" : 12,
-                        "lg" : 12
-                      },
-                      "propertyValues" : {
-                        "labelHidden" : {
-                          "type" : "constant",
-                          "value" : false
-                        },
-                        "hidden" : {
-                          "type" : "constant",
-                          "value" : false
-                        },
-                        "cssClasses" : {
-                          "type" : "constant",
-                          "value" : ""
-                        },
-                        "disabled" : {
-                          "type" : "constant",
-                          "value" : true
-                        },
-                        "label" : {
-                          "type" : "interpolation",
-                          "value" : "Approved"
-                        },
-                        "dimension" : {
-                          "type" : "constant",
-                          "value" : 12
-                        },
-                        "value" : {
-                          "type" : "variable",
-                          "value" : "conferenceRequest.approved"
-                        },
-                        "required" : {
-                          "type" : "constant",
-                          "value" : false
-                        }
-                      },
-                      "reference" : "6a65bca2-60c3-4284-91d5-c53b76229ef7",
                       "hasValidationError" : false,
                       "id" : "pbCheckbox",
                       "description" : ""

@@ -22,9 +22,19 @@
         </businessObject>
         <businessObject qualifiedName="com.ftn.upp.model.ConferenceOffer">
             <fields>
-                <relationField type="AGGREGATION" reference="com.ftn.upp.model.Accommodation" fetchType="EAGER" name="accommodation" nullable="true" collection="true"/>
-                <relationField type="AGGREGATION" reference="com.ftn.upp.model.Transport" fetchType="EAGER" name="transport" nullable="true" collection="true"/>
+                <relationField type="COMPOSITION" reference="com.ftn.upp.model.Accommodation" fetchType="EAGER" name="accommodation" nullable="true" collection="true"/>
+                <relationField type="COMPOSITION" reference="com.ftn.upp.model.Transport" fetchType="EAGER" name="transport" nullable="true" collection="true"/>
+            </fields>
+            <uniqueConstraints/>
+            <queries/>
+            <indexes/>
+        </businessObject>
+        <businessObject qualifiedName="com.ftn.upp.model.ConferenceOption">
+            <fields>
+                <relationField type="AGGREGATION" reference="com.ftn.upp.model.Accommodation" fetchType="EAGER" name="accommodation" nullable="true" collection="false"/>
+                <relationField type="AGGREGATION" reference="com.ftn.upp.model.Transport" fetchType="LAZY" name="transport" nullable="true" collection="false"/>
                 <field type="BOOLEAN" length="255" name="confirmed" nullable="true" collection="false"/>
+                <field type="BOOLEAN" length="255" name="acceptByEmployee" nullable="true" collection="false"/>
             </fields>
             <uniqueConstraints/>
             <queries/>
@@ -41,10 +51,8 @@
                 <field type="BOOLEAN" length="255" name="isOnline" nullable="true" collection="false"/>
                 <field type="BOOLEAN" length="255" name="approved" nullable="true" collection="false"/>
                 <field type="STRING" length="255" name="rejectDescription" nullable="true" collection="false"/>
-                <field type="INTEGER" length="255" name="allowedBudget" nullable="true" collection="false"/>
-                <relationField type="AGGREGATION" reference="com.ftn.upp.model.ConferenceOffer" fetchType="LAZY" name="conferenceOffer" nullable="true" collection="false"/>
-                <field type="INTEGER" length="255" name="totalPrice" nullable="true" collection="false"/>
-                <field type="BOOLEAN" length="255" name="acceptByEmployee" nullable="true" collection="false"/>
+                <field type="INTEGER" length="255" name="allowedBudgetAccomodation" nullable="true" collection="false"/>
+                <field type="INTEGER" length="255" name="allowedBudgetTransport" nullable="true" collection="false"/>
             </fields>
             <uniqueConstraints/>
             <queries/>

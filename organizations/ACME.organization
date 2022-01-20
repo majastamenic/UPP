@@ -85,7 +85,7 @@
       <lastName>Bates</lastName>
       <title>Mr</title>
       <jobTitle>Director</jobTitle>
-      <manager></manager>
+      <manager>william.jobs</manager>
       <personalData/>
       <professionalData>
         <email>walter.bates@mailinator.com</email>
