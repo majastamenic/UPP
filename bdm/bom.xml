@@ -60,8 +60,10 @@
         </businessObject>
         <businessObject qualifiedName="com.ftn.upp.model.Impression">
             <fields>
-                <field type="INTEGER" length="255" name="grade" nullable="true" collection="false"/>
+                <field type="INTEGER" length="255" name="education" nullable="true" collection="false"/>
                 <field type="STRING" length="255" name="description" nullable="true" collection="false"/>
+                <field type="INTEGER" length="255" name="grade" nullable="true" collection="false"/>
+                <field type="BOOLEAN" length="255" name="recommendation" nullable="true" collection="false"/>
             </fields>
             <uniqueConstraints/>
             <queries/>
@@ -71,11 +73,6 @@
             <fields>
                 <field type="LOCALDATETIME" length="255" name="dates" nullable="true" collection="true"/>
                 <field type="LOCALDATETIME" length="255" name="interviewDate" nullable="true" collection="false"/>
-                <field type="STRING" length="255" name="hr" nullable="true" collection="false"/>
-                <field type="STRING" length="255" name="seniorDeveloper" nullable="true" collection="false"/>
-                <field type="STRING" length="255" name="employee" nullable="true" collection="false"/>
-                <relationField type="AGGREGATION" reference="com.ftn.upp.model.Impression" fetchType="LAZY" name="impression" nullable="true" collection="true"/>
-                <field type="BOOLEAN" length="255" name="passed" nullable="true" collection="false"/>
             </fields>
             <uniqueConstraints/>
             <queries/>
@@ -87,8 +84,8 @@
                 <field type="STRING" length="255" name="surname" nullable="true" collection="false"/>
                 <field type="STRING" length="255" name="address" nullable="true" collection="false"/>
                 <field type="STRING" length="255" name="email" nullable="true" collection="false"/>
-                <field type="LOCALDATE" length="255" name="applicationDate" nullable="true" collection="false"/>
-                <relationField type="AGGREGATION" reference="com.ftn.upp.model.Interview" fetchType="LAZY" name="interview" nullable="true" collection="false"/>
+                <field type="STRING" length="255" name="cv" nullable="true" collection="false"/>
+                <field type="STRING" length="255" name="coverLetter" nullable="true" collection="false"/>
             </fields>
             <uniqueConstraints/>
             <queries/>

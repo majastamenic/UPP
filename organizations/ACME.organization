@@ -579,6 +579,9 @@
       <displayName>HR</displayName>
       <description>This group represents the production department of the ACME organization</description>
     </group>
+    <group name="SeniorDeveloper" parentPath="/employees">
+      <displayName>Senior Developer</displayName>
+    </group>
   </groups>
   <memberships>
     <membership>
@@ -589,7 +592,8 @@
     <membership>
       <userName>april.sanchez</userName>
       <roleName>member</roleName>
-      <groupName>employees</groupName>
+      <groupName>SeniorDeveloper</groupName>
+      <groupParentPath>/employees</groupParentPath>
     </membership>
     <membership>
       <userName>helen.kelly</userName>
@@ -676,7 +680,8 @@
     <membership>
       <userName>daniela.angelo</userName>
       <roleName>member</roleName>
-      <groupName>employees</groupName>
+      <groupName>SeniorDeveloper</groupName>
+      <groupParentPath>/employees</groupParentPath>
     </membership>
     <membership>
       <userName>misa.kumagai</userName>
@@ -699,7 +704,8 @@
     <membership>
       <userName>anthony.nichols</userName>
       <roleName>member</roleName>
-      <groupName>employees</groupName>
+      <groupName>SeniorDeveloper</groupName>
+      <groupParentPath>/employees</groupParentPath>
     </membership>
   </memberships>
 </organization:Organization>
