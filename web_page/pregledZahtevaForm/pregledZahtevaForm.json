@@ -2,7 +2,7 @@
   "modelVersion" : "2.2",
   "id" : "pregledZahtevaForm",
   "name" : "pregledZahtevaForm",
-  "lastUpdate" : 1645642872125,
+  "lastUpdate" : 1645647378042,
   "rows" : [
     [
       {
@@ -1055,7 +1055,15 @@
     "zaposleniUOpstojSluzbi" : {
       "type" : "url",
       "value" : [
-        "../API/identity/user?p=0&c=100&f=group_id=203"
+        "../API/identity/user?p=0&c=100&f=group_id={{group[0].id}}"
+      ],
+      "advancedOptions" : { },
+      "exposed" : false
+    },
+    "group" : {
+      "type" : "url",
+      "value" : [
+        "../API/identity/group?p=0&c=100&f=name=opsta-sluzba"
       ],
       "advancedOptions" : { },
       "exposed" : false
