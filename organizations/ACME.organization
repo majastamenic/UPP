@@ -2,223 +2,15 @@
 <organization:Organization xmlns:organization="http://documentation.bonitasoft.com/organization-xml-schema/1.1" name="ACME" description="The ACME organization is an example of a typical hierarchy. It can be used for development.">
   <customUserInfoDefinitions/>
   <users>
-    <user userName="william.jobs">
-      <firstName>William</firstName>
-      <lastName>Jobs</lastName>
-      <title>Mr</title>
-      <jobTitle></jobTitle>
-      <manager>walter.bates</manager>
-      <personalData/>
-      <professionalData>
-        <email>william.jobs@mailinator.com</email>
-        <phoneNumber>484-302-5000</phoneNumber>
-        <faxNumber>484-302-0000</faxNumber>
-        <building>70</building>
-        <address>Renwick Drive</address>
-        <zipCode>19108</zipCode>
-        <city>Philadelphia</city>
-        <state>PA</state>
-        <country>United States</country>
-      </professionalData>
-      <metaDatas>
-        <metaData name="Skype ID"/>
-        <metaData name="Twitter"/>
-        <metaData name="Facebook"/>
-      </metaDatas>
-      <enabled>true</enabled>
-      <password encrypted="false">bpm</password>
-    </user>
-    <user userName="april.sanchez">
-      <firstName>April</firstName>
-      <lastName>Sanchez</lastName>
-      <title>Mrs</title>
-      <jobTitle>Senior Software Developer</jobTitle>
-      <manager>walter.bates</manager>
-      <personalData/>
-      <professionalData>
-        <email>april.sanchez@mailinator.com</email>
-        <phoneNumber>484-302-5000</phoneNumber>
-        <faxNumber>484-302-0000</faxNumber>
-        <building>70</building>
-        <address>Renwick Drive</address>
-        <zipCode>19108</zipCode>
-        <city>Philadelphia</city>
-        <state>PA</state>
-        <country>United States</country>
-      </professionalData>
-      <metaDatas>
-        <metaData name="Skype ID"/>
-        <metaData name="Twitter"/>
-        <metaData name="Facebook"/>
-      </metaDatas>
-      <enabled>true</enabled>
-      <password encrypted="false">bpm</password>
-    </user>
-    <user userName="helen.kelly">
-      <firstName>Helen</firstName>
-      <lastName>Kelly</lastName>
-      <title>Mrs</title>
-      <jobTitle>Human resource manager</jobTitle>
-      <manager>isabel.bleasdale</manager>
-      <personalData/>
-      <professionalData>
-        <email>helen.kelly@mailinator.com</email>
-        <phoneNumber>484-302-5000</phoneNumber>
-        <faxNumber>484-302-0000</faxNumber>
-        <building>70</building>
-        <address>Renwick Drive</address>
-        <zipCode>19108</zipCode>
-        <city>Philadelphia</city>
-        <state>PA</state>
-        <country>United States</country>
-      </professionalData>
-      <metaDatas>
-        <metaData name="Skype ID"/>
-        <metaData name="Twitter"/>
-        <metaData name="Facebook"/>
-      </metaDatas>
-      <enabled>true</enabled>
-      <password encrypted="false">bpm</password>
-    </user>
-    <user userName="walter.bates">
-      <firstName>Walter</firstName>
-      <lastName>Bates</lastName>
-      <title>Mr</title>
-      <jobTitle>Director</jobTitle>
-      <manager>william.jobs</manager>
-      <personalData/>
-      <professionalData>
-        <email>walter.bates@mailinator.com</email>
-        <phoneNumber>484-302-5000</phoneNumber>
-        <faxNumber>484-302-0000</faxNumber>
-        <building>70</building>
-        <address>Renwick Drive</address>
-        <zipCode>19108</zipCode>
-        <city>Philadelphia</city>
-        <state>PA</state>
-        <country>United States</country>
-      </professionalData>
-      <metaDatas>
-        <metaData name="Skype ID"/>
-        <metaData name="Twitter"/>
-        <metaData name="Facebook"/>
-      </metaDatas>
-      <enabled>true</enabled>
-      <password encrypted="false">bpm</password>
-    </user>
-    <user userName="zachary.williamson">
-      <firstName>Zachary</firstName>
-      <lastName>Williamson</lastName>
-      <title>Mr</title>
-      <jobTitle></jobTitle>
-      <manager>walter.bates</manager>
-      <personalData/>
-      <professionalData>
-        <email>zachary.williamson@mailinator.com</email>
-        <phoneNumber>484-302-5000</phoneNumber>
-        <faxNumber>484-302-0000</faxNumber>
-        <building>70</building>
-        <address>Renwick Drive</address>
-        <zipCode>19108</zipCode>
-        <city>Philadelphia</city>
-        <state>PA</state>
-        <country>United States</country>
-      </professionalData>
-      <metaDatas>
-        <metaData name="Skype ID"/>
-        <metaData name="Twitter"/>
-        <metaData name="Facebook"/>
-      </metaDatas>
-      <enabled>true</enabled>
-      <password encrypted="false">bpm</password>
-    </user>
-    <user userName="patrick.gardenier">
-      <firstName>Patrick</firstName>
-      <lastName>Gardenier</lastName>
-      <title>Mr</title>
-      <jobTitle>General service</jobTitle>
-      <manager>walter.bates</manager>
-      <personalData/>
-      <professionalData>
-        <email>patrick.gardenier@mailinator.com</email>
-        <phoneNumber>484-302-5000</phoneNumber>
-        <faxNumber>484-302-0000</faxNumber>
-        <building>70</building>
-        <address>Renwick Drive</address>
-        <zipCode>19108</zipCode>
-        <city>Philadelphia</city>
-        <state>PA</state>
-        <country>United States</country>
-      </professionalData>
-      <metaDatas>
-        <metaData name="Skype ID"/>
-        <metaData name="Twitter"/>
-        <metaData name="Facebook"/>
-      </metaDatas>
-      <enabled>true</enabled>
-      <password encrypted="false">bpm</password>
-    </user>
-    <user userName="virginie.jomphe">
-      <firstName>Virginie</firstName>
-      <lastName>Jomphe</lastName>
+    <user userName="kandidat2">
+      <firstName>Nenad</firstName>
+      <lastName>Nedic</lastName>
       <title>Mrs</title>
       <jobTitle></jobTitle>
-      <manager>walter.bates</manager>
-      <personalData/>
-      <professionalData>
-        <email>virginie.jomphe@mailinator.com</email>
-        <phoneNumber>484-302-5000</phoneNumber>
-        <faxNumber>484-302-0000</faxNumber>
-        <building>70</building>
-        <address>Renwick Drive</address>
-        <zipCode>19108</zipCode>
-        <city>Philadelphia</city>
-        <state>PA</state>
-        <country>United States</country>
-      </professionalData>
-      <metaDatas>
-        <metaData name="Skype ID"/>
-        <metaData name="Twitter"/>
-        <metaData name="Facebook"/>
-      </metaDatas>
-      <enabled>true</enabled>
-      <password encrypted="false">bpm</password>
-    </user>
-    <user userName="thorsten.hartmann">
-      <firstName>Thorsten</firstName>
-      <lastName>Hartmann</lastName>
-      <title>Mr</title>
-      <jobTitle>General service</jobTitle>
-      <manager>walter.bates</manager>
-      <personalData/>
-      <professionalData>
-        <email>thorsten.hartmann@mailinator.com</email>
-        <phoneNumber>484-302-5000</phoneNumber>
-        <faxNumber>484-302-0000</faxNumber>
-        <building>70</building>
-        <address>Renwick Drive</address>
-        <zipCode>19108</zipCode>
-        <city>Philadelphia</city>
-        <state>PA</state>
-        <country>United States</country>
-      </professionalData>
-      <metaDatas>
-        <metaData name="Skype ID"/>
-        <metaData name="Twitter"/>
-        <metaData name="Facebook"/>
-      </metaDatas>
-      <enabled>true</enabled>
-      <password encrypted="false">bpm</password>
-    </user>
-    <user userName="jan.fisher">
-      <firstName>Jan</firstName>
-      <lastName>Fisher</lastName>
-      <title>Mr</title>
-      <jobTitle>Candidate</jobTitle>
       <manager></manager>
       <personalData/>
       <professionalData>
-        <email>jan.fisher@mailinator.com</email>
+        <email>nenad@mailinator.com</email>
         <phoneNumber>484-302-5000</phoneNumber>
         <faxNumber>484-302-0000</faxNumber>
         <building>70</building>
@@ -236,41 +28,15 @@
       <enabled>true</enabled>
       <password encrypted="false">bpm</password>
     </user>
-    <user userName="isabel.bleasdale">
-      <firstName>Isabel</firstName>
-      <lastName>Bleasdale</lastName>
-      <title>Mrs</title>
-      <jobTitle>Manager</jobTitle>
-      <manager>walter.bates</manager>
-      <personalData/>
-      <professionalData>
-        <email>isabel.bleasdale@mailinator.com</email>
-        <phoneNumber>484-302-5000</phoneNumber>
-        <faxNumber>484-302-0000</faxNumber>
-        <building>70</building>
-        <address>Renwick Drive</address>
-        <zipCode>19108</zipCode>
-        <city>Philadelphia</city>
-        <state>PA</state>
-        <country>United States</country>
-      </professionalData>
-      <metaDatas>
-        <metaData name="Skype ID"/>
-        <metaData name="Twitter"/>
-        <metaData name="Facebook"/>
-      </metaDatas>
-      <enabled>true</enabled>
-      <password encrypted="false">bpm</password>
-    </user>
-    <user userName="favio.riviera">
-      <firstName>Favio</firstName>
-      <lastName>Riviera</lastName>
+    <user userName="hr2">
+      <firstName>Marko</firstName>
+      <lastName>Markovic</lastName>
       <title>Mr</title>
       <jobTitle>HR</jobTitle>
-      <manager>isabel.bleasdale</manager>
+      <manager>hr.sef</manager>
       <personalData/>
       <professionalData>
-        <email>favio.riviera@mailinator.com</email>
+        <email>marko@mailinator.com</email>
         <phoneNumber>484-302-5000</phoneNumber>
         <faxNumber>484-302-0000</faxNumber>
         <building>70</building>
@@ -288,15 +54,15 @@
       <enabled>true</enabled>
       <password encrypted="false">bpm</password>
     </user>
-    <user userName="michael.morrison">
-      <firstName>Michael</firstName>
-      <lastName>Morrison</lastName>
+    <user userName="finansije">
+      <firstName>Ivan</firstName>
+      <lastName>Ivanic</lastName>
       <title>Mr</title>
       <jobTitle>Candidate</jobTitle>
-      <manager></manager>
+      <manager>User1</manager>
       <personalData/>
       <professionalData>
-        <email>michael.morrison@mailinator.com</email>
+        <email>finansije@mailinator.com</email>
         <phoneNumber>484-302-5000</phoneNumber>
         <faxNumber>484-302-0000</faxNumber>
         <building>70</building>
@@ -314,93 +80,15 @@
       <enabled>true</enabled>
       <password encrypted="false">bpm</password>
     </user>
-    <user userName="marc.marseau">
-      <firstName>Marc</firstName>
-      <lastName>Marseau</lastName>
+    <user userName="senior.developer">
+      <firstName>Ljubica</firstName>
+      <lastName>Ljubic</lastName>
       <title>Mr</title>
-      <jobTitle>Candidate</jobTitle>
-      <manager></manager>
-      <personalData/>
-      <professionalData>
-        <email>marc.marseau@mailinator.com</email>
-        <phoneNumber>484-302-5000</phoneNumber>
-        <faxNumber>484-302-0000</faxNumber>
-        <building>70</building>
-        <address>Renwick Drive</address>
-        <zipCode>19108</zipCode>
-        <city>Philadelphia</city>
-        <state>PA</state>
-        <country>United States</country>
-      </professionalData>
-      <metaDatas>
-        <metaData name="Skype ID"/>
-        <metaData name="Twitter"/>
-        <metaData name="Facebook"/>
-      </metaDatas>
-      <enabled>true</enabled>
-      <password encrypted="false">bpm</password>
-    </user>
-    <user userName="joseph.hovell">
-      <firstName>Joseph</firstName>
-      <lastName>Hovell</lastName>
-      <title>Mr</title>
-      <jobTitle>Candidate</jobTitle>
-      <manager></manager>
-      <personalData/>
-      <professionalData>
-        <email>joseph.hovell@mailinator.com</email>
-        <phoneNumber>484-302-5000</phoneNumber>
-        <faxNumber>484-302-0000</faxNumber>
-        <building>70</building>
-        <address>Renwick Drive</address>
-        <zipCode>19108</zipCode>
-        <city>Philadelphia</city>
-        <state>PA</state>
-        <country>United States</country>
-      </professionalData>
-      <metaDatas>
-        <metaData name="Skype ID"/>
-        <metaData name="Twitter"/>
-        <metaData name="Facebook"/>
-      </metaDatas>
-      <enabled>true</enabled>
-      <password encrypted="false">bpm</password>
-    </user>
-    <user userName="mauro.zetticci">
-      <firstName>Mauro</firstName>
-      <lastName>Zetticci</lastName>
-      <title>Mr</title>
-      <jobTitle>Candidate</jobTitle>
-      <manager></manager>
-      <personalData/>
-      <professionalData>
-        <email>mauro.zetticci@mailinator.com</email>
-        <phoneNumber>484-302-5000</phoneNumber>
-        <faxNumber>484-302-0000</faxNumber>
-        <building>70</building>
-        <address>Renwick Drive</address>
-        <zipCode>19108</zipCode>
-        <city>Philadelphia</city>
-        <state>PA</state>
-        <country>United States</country>
-      </professionalData>
-      <metaDatas>
-        <metaData name="Skype ID"/>
-        <metaData name="Twitter"/>
-        <metaData name="Facebook"/>
-      </metaDatas>
-      <enabled>true</enabled>
-      <password encrypted="false">bpm</password>
-    </user>
-    <user userName="thomas.wallis">
-      <firstName>Thomas</firstName>
-      <lastName>Wallis</lastName>
-      <title>Mr</title>
-      <jobTitle>General service</jobTitle>
+      <jobTitle>Senior Developer</jobTitle>
       <manager>walter.bates</manager>
       <personalData/>
       <professionalData>
-        <email>thomas.wallis@mailinator.com</email>
+        <email>ljubica@mailinator.com</email>
         <phoneNumber>484-302-5000</phoneNumber>
         <faxNumber>484-302-0000</faxNumber>
         <building>70</building>
@@ -418,15 +106,41 @@
       <enabled>true</enabled>
       <password encrypted="false">bpm</password>
     </user>
-    <user userName="daniela.angelo">
-      <firstName>Daniela</firstName>
-      <lastName>Angelo</lastName>
+    <user userName="senior.developer2">
+      <firstName>Nedjo</firstName>
+      <lastName>Nedjic</lastName>
+      <title>Mr</title>
+      <jobTitle>Senior Developer</jobTitle>
+      <manager>walter.bates</manager>
+      <personalData/>
+      <professionalData>
+        <email>nedjo@mailinator.com</email>
+        <phoneNumber>484-302-5000</phoneNumber>
+        <faxNumber>484-302-0000</faxNumber>
+        <building>70</building>
+        <address>Renwick Drive</address>
+        <zipCode>19108</zipCode>
+        <city>Philadelphia</city>
+        <state>PA</state>
+        <country>United States</country>
+      </professionalData>
+      <metaDatas>
+        <metaData name="Skype ID"/>
+        <metaData name="Twitter"/>
+        <metaData name="Facebook"/>
+      </metaDatas>
+      <enabled>true</enabled>
+      <password encrypted="false">bpm</password>
+    </user>
+    <user userName="hr1">
+      <firstName>Marija</firstName>
+      <lastName>Markovic</lastName>
       <title>Mrs</title>
-      <jobTitle>Senior Software Developer</jobTitle>
-      <manager>walter.bates</manager>
+      <jobTitle>hr</jobTitle>
+      <manager>hr.sef</manager>
       <personalData/>
       <professionalData>
-        <email>daniela.angelo@mailinator.com</email>
+        <email>marija@mailinator.com</email>
         <phoneNumber>484-302-5000</phoneNumber>
         <faxNumber>484-302-0000</faxNumber>
         <building>70</building>
@@ -444,15 +158,15 @@
       <enabled>true</enabled>
       <password encrypted="false">bpm</password>
     </user>
-    <user userName="anthony.nichols">
-      <firstName>Anthony</firstName>
-      <lastName>Nichols</lastName>
+    <user userName="kandidat1">
+      <firstName>Ivana</firstName>
+      <lastName>Ivanic</lastName>
       <title>Mr</title>
-      <jobTitle>Senior Software Developer</jobTitle>
-      <manager>walter.bates</manager>
+      <jobTitle>Kandidat</jobTitle>
+      <manager></manager>
       <personalData/>
       <professionalData>
-        <email>anthony.nichols@mailinator.com</email>
+        <email>ivana@mailinator.com</email>
         <phoneNumber>484-302-5000</phoneNumber>
         <faxNumber>484-302-0000</faxNumber>
         <building>70</building>
@@ -470,11 +184,11 @@
       <enabled>true</enabled>
       <password encrypted="false">bpm</password>
     </user>
-    <user userName="misa.kumagai">
-      <firstName>Misa</firstName>
-      <lastName>Kumagai</lastName>
+    <user userName="opsta.sluzba">
+      <firstName>Filip</firstName>
+      <lastName>Filipovic</lastName>
       <title>Mrs</title>
-      <jobTitle>Head of finance</jobTitle>
+      <jobTitle>Opsta sluzba</jobTitle>
       <manager>walter.bates</manager>
       <personalData/>
       <professionalData>
@@ -496,15 +210,15 @@
       <enabled>true</enabled>
       <password encrypted="false">bpm</password>
     </user>
-    <user userName="norio.yamazaki">
-      <firstName>Norio</firstName>
-      <lastName>Yamazaki</lastName>
+    <user userName="opsta.sluzba1">
+      <firstName>Ana</firstName>
+      <lastName>Anic</lastName>
       <title>Mr</title>
-      <jobTitle>Head of finance</jobTitle>
+      <jobTitle>Opsta sluzba</jobTitle>
       <manager>walter.bates</manager>
       <personalData/>
       <professionalData>
-        <email>norio.yamazaki@mailinator.com</email>
+        <email>ana@mailinator.com</email>
         <phoneNumber>484-302-5000</phoneNumber>
         <faxNumber>484-302-0000</faxNumber>
         <building>70</building>
@@ -522,15 +236,15 @@
       <enabled>true</enabled>
       <password encrypted="false">bpm</password>
     </user>
-    <user userName="giovanna.almeida">
-      <firstName>Giovanna</firstName>
-      <lastName>Almeida</lastName>
+    <user userName="hr.sef">
+      <firstName>Anamaria</firstName>
+      <lastName>Maric</lastName>
       <title>Mrs</title>
       <jobTitle>HR</jobTitle>
-      <manager>isabel.bleasdale</manager>
+      <manager>User1</manager>
       <personalData/>
       <professionalData>
-        <email>giovanna.almeida@mailinator.com</email>
+        <email>anamaria@mailinator.com</email>
         <phoneNumber>484-302-5000</phoneNumber>
         <faxNumber>484-302-0000</faxNumber>
         <building>70</building>
@@ -547,165 +261,133 @@
       </metaDatas>
       <enabled>true</enabled>
       <password encrypted="false">bpm</password>
+    </user>
+    <user userName="sef">
+      <firstName>Bojan</firstName>
+      <lastName>Bojanic</lastName>
+      <title>Mr</title>
+      <jobTitle>Sef</jobTitle>
+      <manager></manager>
+      <personalData/>
+      <professionalData>
+        <email>sef@mailinator.com</email>
+      </professionalData>
+      <password encrypted="false">bpm</password>
+      <customUserInfoValues/>
+    </user>
+    <user userName="walter.bates">
+      <firstName>Walter</firstName>
+      <lastName>Bates</lastName>
+      <jobTitle>Sef</jobTitle>
+      <personalData/>
+      <professionalData>
+        <email>walter@mailinator.com</email>
+      </professionalData>
+      <password encrypted="false">bpm</password>
+      <customUserInfoValues/>
     </user>
   </users>
   <roles>
-    <role name="member">
-      <displayName>Member</displayName>
+    <role name="clan">
+      <displayName>Clan</displayName>
       <description></description>
     </role>
-    <role name="Director">
-      <displayName>Director</displayName>
+    <role name="sef">
+      <displayName>Sef</displayName>
     </role>
   </roles>
   <groups>
-    <group name="employees">
-      <displayName>Employees</displayName>
+    <group name="zaposleni">
+      <displayName>Zaposleni</displayName>
       <description>This group represents the acme department of the ACME organization</description>
     </group>
-    <group name="candidate" parentPath="/employees">
-      <displayName>Candidate</displayName>
-      <description>This group represents the finance department of the ACME organization</description>
-    </group>
-    <group name="head-of-finance" parentPath="/employees">
-      <displayName>Head of finance</displayName>
+    <group name="strucnjak-za-finansije" parentPath="/zaposleni">
+      <displayName>Strucnjak za finansije</displayName>
       <description>This group represents the infrastructure department of the ACME organization</description>
     </group>
-    <group name="general-service" parentPath="/employees">
-      <displayName>General service</displayName>
+    <group name="opsta-sluzba" parentPath="/zaposleni">
+      <displayName>Zaposleni opsta sluzba</displayName>
       <description>This group represents the marketing department of the ACME organization</description>
     </group>
-    <group name="HR" parentPath="/employees">
+    <group name="HR" parentPath="/zaposleni">
       <displayName>HR</displayName>
       <description>This group represents the production department of the ACME organization</description>
     </group>
-    <group name="SeniorDeveloper" parentPath="/employees">
+    <group name="SeniorDeveloper" parentPath="/zaposleni">
       <displayName>Senior Developer</displayName>
+    </group>
+    <group name="Kandidati">
+      <displayName>Kandidati</displayName>
     </group>
   </groups>
   <memberships>
     <membership>
-      <userName>william.jobs</userName>
-      <roleName>member</roleName>
-      <groupName>employees</groupName>
+      <userName>kandidat2</userName>
+      <roleName>clan</roleName>
+      <groupName>Kandidati</groupName>
     </membership>
     <membership>
-      <userName>april.sanchez</userName>
-      <roleName>member</roleName>
-      <groupName>SeniorDeveloper</groupName>
-      <groupParentPath>/employees</groupParentPath>
-    </membership>
-    <membership>
-      <userName>helen.kelly</userName>
-      <roleName>member</roleName>
+      <userName>hr2</userName>
+      <roleName>clan</roleName>
       <groupName>HR</groupName>
-      <groupParentPath>/employees</groupParentPath>
+      <groupParentPath>/zaposleni</groupParentPath>
+    </membership>
+    <membership>
+      <userName>finansije</userName>
+      <roleName>clan</roleName>
+      <groupName>strucnjak-za-finansije</groupName>
+      <groupParentPath>/zaposleni</groupParentPath>
+    </membership>
+    <membership>
+      <userName>senior.developer</userName>
+      <roleName>clan</roleName>
+      <groupName>SeniorDeveloper</groupName>
+      <groupParentPath>/zaposleni</groupParentPath>
+    </membership>
+    <membership>
+      <userName>senior.developer2</userName>
+      <roleName>clan</roleName>
+      <groupName>SeniorDeveloper</groupName>
+      <groupParentPath>/zaposleni</groupParentPath>
+    </membership>
+    <membership>
+      <userName>hr1</userName>
+      <roleName>clan</roleName>
+      <groupName>HR</groupName>
+      <groupParentPath>/zaposleni</groupParentPath>
+    </membership>
+    <membership>
+      <userName>opsta.sluzba</userName>
+      <roleName>clan</roleName>
+      <groupName>opsta-sluzba</groupName>
+      <groupParentPath>/zaposleni</groupParentPath>
+    </membership>
+    <membership>
+      <userName>opsta.sluzba1</userName>
+      <roleName>clan</roleName>
+      <groupName>opsta-sluzba</groupName>
+      <groupParentPath>/zaposleni</groupParentPath>
+    </membership>
+    <membership>
+      <userName>hr.sef</userName>
+      <roleName>sef</roleName>
+      <groupName>HR</groupName>
+      <groupParentPath>/zaposleni</groupParentPath>
+    </membership>
+    <membership>
+      <userName>kandidat1</userName>
+      <roleName>clan</roleName>
+      <groupName>Kandidati</groupName>
+    </membership>
+    <membership>
+      <userName>sef</userName>
+      <roleName>sef</roleName>
+      <groupName>zaposleni</groupName>
     </membership>
     <membership>
       <userName>walter.bates</userName>
-      <roleName>Director</roleName>
-      <groupName>employees</groupName>
-    </membership>
-    <membership>
-      <userName>zachary.williamson</userName>
-      <roleName>member</roleName>
-      <groupName>employees</groupName>
-    </membership>
-    <membership>
-      <userName>patrick.gardenier</userName>
-      <roleName>member</roleName>
-      <groupName>general-service</groupName>
-      <groupParentPath>/employees</groupParentPath>
-    </membership>
-    <membership>
-      <userName>virginie.jomphe</userName>
-      <roleName>member</roleName>
-      <groupName>candidate</groupName>
-      <groupParentPath>/employees</groupParentPath>
-    </membership>
-    <membership>
-      <userName>thorsten.hartmann</userName>
-      <roleName>member</roleName>
-      <groupName>general-service</groupName>
-      <groupParentPath>/employees</groupParentPath>
-    </membership>
-    <membership>
-      <userName>jan.fisher</userName>
-      <roleName>member</roleName>
-      <groupName>candidate</groupName>
-      <groupParentPath>/employees</groupParentPath>
-    </membership>
-    <membership>
-      <userName>isabel.bleasdale</userName>
-      <roleName>Director</roleName>
-      <groupName>HR</groupName>
-      <groupParentPath>/employees</groupParentPath>
-    </membership>
-    <membership>
-      <userName>favio.riviera</userName>
-      <roleName>member</roleName>
-      <groupName>HR</groupName>
-      <groupParentPath>/employees</groupParentPath>
-    </membership>
-    <membership>
-      <userName>michael.morrison</userName>
-      <roleName>member</roleName>
-      <groupName>candidate</groupName>
-      <groupParentPath>/employees</groupParentPath>
-    </membership>
-    <membership>
-      <userName>marc.marseau</userName>
-      <roleName>member</roleName>
-      <groupName>candidate</groupName>
-      <groupParentPath>/employees</groupParentPath>
-    </membership>
-    <membership>
-      <userName>joseph.hovell</userName>
-      <roleName>member</roleName>
-      <groupName>candidate</groupName>
-      <groupParentPath>/employees</groupParentPath>
-    </membership>
-    <membership>
-      <userName>mauro.zetticci</userName>
-      <roleName>member</roleName>
-      <groupName>candidate</groupName>
-      <groupParentPath>/employees</groupParentPath>
-    </membership>
-    <membership>
-      <userName>thomas.wallis</userName>
-      <roleName>member</roleName>
-      <groupName>general-service</groupName>
-      <groupParentPath>/employees</groupParentPath>
-    </membership>
-    <membership>
-      <userName>daniela.angelo</userName>
-      <roleName>member</roleName>
-      <groupName>SeniorDeveloper</groupName>
-      <groupParentPath>/employees</groupParentPath>
-    </membership>
-    <membership>
-      <userName>misa.kumagai</userName>
-      <roleName>member</roleName>
-      <groupName>head-of-finance</groupName>
-      <groupParentPath>/employees</groupParentPath>
-    </membership>
-    <membership>
-      <userName>norio.yamazaki</userName>
-      <roleName>member</roleName>
-      <groupName>head-of-finance</groupName>
-      <groupParentPath>/employees</groupParentPath>
-    </membership>
-    <membership>
-      <userName>giovanna.almeida</userName>
-      <roleName>member</roleName>
-      <groupName>HR</groupName>
-      <groupParentPath>/employees</groupParentPath>
-    </membership>
-    <membership>
-      <userName>anthony.nichols</userName>
-      <roleName>member</roleName>
-      <groupName>SeniorDeveloper</groupName>
-      <groupParentPath>/employees</groupParentPath>
+      <roleName>sef</roleName>
+      <groupName>zaposleni</groupName>
     </membership>
   </memberships>
 </organization:Organization>

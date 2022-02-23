@@ -69,15 +69,6 @@
             <queries/>
             <indexes/>
         </businessObject>
-        <businessObject qualifiedName="com.ftn.upp.model.Interview">
-            <fields>
-                <field type="LOCALDATETIME" length="255" name="dates" nullable="true" collection="true"/>
-                <field type="LOCALDATETIME" length="255" name="interviewDate" nullable="true" collection="false"/>
-            </fields>
-            <uniqueConstraints/>
-            <queries/>
-            <indexes/>
-        </businessObject>
         <businessObject qualifiedName="com.ftn.upp.model.JobApplication">
             <fields>
                 <field type="STRING" length="255" name="name" nullable="true" collection="false"/>
@@ -104,6 +95,146 @@
         <businessObject qualifiedName="com.ftn.upp.model.TransportType">
             <fields>
                 <field type="STRING" length="255" name="name" nullable="true" collection="false"/>
+            </fields>
+            <uniqueConstraints/>
+            <queries/>
+            <indexes/>
+        </businessObject>
+        <businessObject qualifiedName="com.ftn.upp.model.nabavka_opreme.Artikal">
+            <fields>
+                <field type="STRING" length="255" name="nazivOpreme" nullable="true" collection="false"/>
+                <field type="STRING" length="255" name="tipProizvoda" nullable="true" collection="false"/>
+                <field type="INTEGER" length="255" name="kolicina" nullable="true" collection="false"/>
+            </fields>
+            <uniqueConstraints/>
+            <queries/>
+            <indexes/>
+        </businessObject>
+        <businessObject qualifiedName="com.ftn.upp.model.nabavka_opreme.Oprema">
+            <fields>
+                <field type="STRING" length="255" name="naziv" nullable="true" collection="false"/>
+            </fields>
+            <uniqueConstraints/>
+            <queries/>
+            <indexes/>
+        </businessObject>
+        <businessObject qualifiedName="com.ftn.upp.model.nabavka_opreme.ZahtevZaNabavku">
+            <fields>
+                <field type="STRING" length="255" name="ime" nullable="true" collection="false"/>
+                <field type="STRING" length="255" name="prezime" nullable="true" collection="false"/>
+                <relationField type="AGGREGATION" reference="com.ftn.upp.model.nabavka_opreme.Artikal" fetchType="LAZY" name="artikli" nullable="true" collection="true"/>
+            </fields>
+            <uniqueConstraints/>
+            <queries/>
+            <indexes/>
+        </businessObject>
+        <businessObject qualifiedName="com.ftn.upp.model.odlazak_na_konferenciju.Opcija">
+            <fields>
+                <field type="STRING" length="255" name="smestaj" nullable="true" collection="false"/>
+                <field type="STRING" length="255" name="prevoz" nullable="true" collection="false"/>
+                <field type="INTEGER" length="255" name="cena" nullable="true" collection="false"/>
+            </fields>
+            <uniqueConstraints/>
+            <queries/>
+            <indexes/>
+        </businessObject>
+        <businessObject qualifiedName="com.ftn.upp.model.odlazak_na_konferenciju.Ponuda">
+            <fields>
+                <relationField type="COMPOSITION" reference="com.ftn.upp.model.odlazak_na_konferenciju.Smestaj" fetchType="EAGER" name="smestaj" nullable="true" collection="true"/>
+                <relationField type="COMPOSITION" reference="com.ftn.upp.model.odlazak_na_konferenciju.Prevoz" fetchType="EAGER" name="prevoz" nullable="true" collection="true"/>
+            </fields>
+            <uniqueConstraints/>
+            <queries/>
+            <indexes/>
+        </businessObject>
+        <businessObject qualifiedName="com.ftn.upp.model.odlazak_na_konferenciju.Prevoz">
+            <fields>
+                <field type="STRING" length="255" name="naziv" nullable="true" collection="false"/>
+                <relationField type="AGGREGATION" reference="com.ftn.upp.model.odlazak_na_konferenciju.TipPrevoza" fetchType="EAGER" name="tip" nullable="true" collection="false"/>
+                <field type="INTEGER" length="255" name="cena" nullable="true" collection="false"/>
+            </fields>
+            <uniqueConstraints/>
+            <queries/>
+            <indexes/>
+        </businessObject>
+        <businessObject qualifiedName="com.ftn.upp.model.odlazak_na_konferenciju.Smestaj">
+            <fields>
+                <field type="STRING" length="255" name="naziv" nullable="true" collection="false"/>
+                <field type="STRING" length="255" name="adresa" nullable="true" collection="false"/>
+                <field type="INTEGER" length="255" name="cena" nullable="true" collection="false"/>
+                <relationField type="AGGREGATION" reference="com.ftn.upp.model.odlazak_na_konferenciju.TipSmestaja" fetchType="EAGER" name="tip" nullable="true" collection="false"/>
+            </fields>
+            <uniqueConstraints/>
+            <queries/>
+            <indexes/>
+        </businessObject>
+        <businessObject qualifiedName="com.ftn.upp.model.odlazak_na_konferenciju.TipPrevoza">
+            <fields>
+                <field type="STRING" length="255" name="naziv" nullable="true" collection="false"/>
+            </fields>
+            <uniqueConstraints/>
+            <queries/>
+            <indexes/>
+        </businessObject>
+        <businessObject qualifiedName="com.ftn.upp.model.odlazak_na_konferenciju.TipSmestaja">
+            <fields>
+                <field type="STRING" length="255" name="naziv" nullable="true" collection="false"/>
+            </fields>
+            <uniqueConstraints/>
+            <queries/>
+            <indexes/>
+        </businessObject>
+        <businessObject qualifiedName="com.ftn.upp.model.odlazak_na_konferenciju.Zahtev">
+            <fields>
+                <field type="STRING" length="255" name="ime" nullable="true" collection="false"/>
+                <field type="STRING" length="255" name="prezime" nullable="true" collection="false"/>
+                <field type="STRING" length="255" name="nazivDogadjaja" nullable="true" collection="false"/>
+                <field type="LOCALDATE" length="255" name="datum" nullable="true" collection="false"/>
+                <field type="STRING" length="255" name="mesto" nullable="true" collection="false"/>
+                <field type="INTEGER" length="255" name="cena" nullable="true" collection="false"/>
+                <field type="BOOLEAN" length="255" name="jeOnline" nullable="true" collection="false"/>
+            </fields>
+            <uniqueConstraints/>
+            <queries/>
+            <indexes/>
+        </businessObject>
+        <businessObject qualifiedName="com.ftn.upp.model.prijava_za_posao.Interview">
+            <fields>
+                <field type="LOCALDATETIME" length="255" name="dates" nullable="true" collection="true"/>
+                <field type="LOCALDATETIME" length="255" name="interviewDate" nullable="true" collection="false"/>
+            </fields>
+            <uniqueConstraints/>
+            <queries/>
+            <indexes/>
+        </businessObject>
+        <businessObject qualifiedName="com.ftn.upp.model.prijava_za_posao.OglasiZaPosao">
+            <fields>
+                <field type="STRING" length="255" name="naziv" nullable="true" collection="false"/>
+            </fields>
+            <uniqueConstraints/>
+            <queries/>
+            <indexes/>
+        </businessObject>
+        <businessObject qualifiedName="com.ftn.upp.model.prijava_za_posao.Prijava">
+            <fields>
+                <field type="STRING" length="255" name="ime" nullable="true" collection="false"/>
+                <field type="STRING" length="255" name="prezime" nullable="true" collection="false"/>
+                <field type="STRING" length="255" name="adresa" nullable="true" collection="false"/>
+                <field type="STRING" length="255" name="obrazovanje" nullable="true" collection="false"/>
+                <field type="STRING" length="255" name="cv" nullable="true" collection="false"/>
+                <field type="STRING" length="255" name="propratnoPismo" nullable="true" collection="false"/>
+                <field type="STRING" length="255" name="nazivPosla" nullable="true" collection="false"/>
+            </fields>
+            <uniqueConstraints/>
+            <queries/>
+            <indexes/>
+        </businessObject>
+        <businessObject qualifiedName="com.ftn.upp.model.prijava_za_posao.Utisak">
+            <fields>
+                <field type="INTEGER" length="255" name="ocenaObrazovanja" nullable="true" collection="false"/>
+                <field type="INTEGER" length="255" name="ocena" nullable="true" collection="false"/>
+                <field type="BOOLEAN" length="255" name="preporuka" nullable="true" collection="false"/>
+                <field type="STRING" length="255" name="obrazlozenje" nullable="true" collection="false"/>
             </fields>
             <uniqueConstraints/>
             <queries/>
